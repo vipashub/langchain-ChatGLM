@@ -91,6 +91,20 @@ $ conda env remove -p  /your_path/env_name
 # 拉取仓库
 $ git clone https://github.com/imClumsyPanda/langchain-ChatGLM.git
 
+
+```
+增加代理：
+
+
+requirements.txt增加git代理：
+https://ghproxy.com/
+detectron2@git+https://ghproxy.com/https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2
+
+
+模型换到国内源下载：
+git clone https://modelscope.cn/ZhipuAI/ChatGLM-6B.git
+
+```
 # 安装依赖
 $ pip install -r requirements.txt
 ```
